@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --openssl-legacy-provider",
-    "build": "ng build --openssl-legacy-provider",
+    "start": "cross-env NODE_OPTIONS='--openssl-legacy-provider --inspect' ng serve",
+    "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider --inspect' ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
