@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned && ng serve",
+    "build": "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned && ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
